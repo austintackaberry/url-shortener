@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>URL Shortener</title>
+  </head>
+  <body>
+    <h1>URL Shortener</h1>
+    <h2>User Stories</h2>
+    <ol>
+      <li>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</li>
+      <li>If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.</li>
+      <li>When I visit that shortened URL, it will redirect me to my original link.</li>
+    </ol>
+    <h2>Usage</h2>
+    <code>localhost:8000/https://www.google.com</code>
+    <h2>Example</h2>
+    <code>{"original_url":"https://www.codeclub.social","short_url":"localhost:8000/16958"}</code>
+  </body>
+</html>
